@@ -4,12 +4,12 @@ spring:
   - dev
 ---
 spring: 
-  profiles: dev
+  profiles:dev
   application: 
     name:spring-cloud-config-dev
 ---
 spring: 
- profiles=test
+ profiles:test
  application:
   name:spring-cloud-config-test
 # 保存为UTF8格式
